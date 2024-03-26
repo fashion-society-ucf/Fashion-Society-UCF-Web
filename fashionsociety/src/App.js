@@ -1,26 +1,23 @@
 import React from 'react';
 import './App.css';
-import './components/NavBar.css'
-import NavBar from './components/NavBar';
+import NavBar from './components/ui/NavBar';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About.js';
-import Events from './components/Events.js';
-import Committees from './components/Committees.js';
+import Home from './components/pages/Home';
+import About from './components/pages/About.js';
+import Events from './components/pages/Events.js';
+import Committees from './components/pages/Committees.js';
 
 function App() {
   return (
-
-    <div className="App">
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/committees" element={<Committees />} />
-        </Routes>
-      </div>
-
+    <div className="App racing-sans one-regular">
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/committees" element={<Committees />} />
+      </Routes>
+    </div>
   );
 }
 
