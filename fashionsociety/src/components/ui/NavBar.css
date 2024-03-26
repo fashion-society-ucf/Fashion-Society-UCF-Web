@@ -1,0 +1,61 @@
+nav {
+	width: 100%;
+	margin: 27px;
+	position: fixed;
+    top: 0;
+	right: 0;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.links {
+	margin-left: auto;
+	display: flex;
+	width: fit-content;
+	background-color: rgba(170, 51, 47, 0.75);
+	border-radius: 15px;
+	font-size: 0;
+    text-decoration: none;
+	font-family: 'Racing Sans One', sans-serif;
+}
+
+.links li {
+	line-height: 50px;
+	height: 100%;
+	font-size: 18px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-align: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.links a {
+	color: #ECDCC2;
+	text-decoration: none;
+}
+
+.links .current a {
+	color: white;
+	border-radius: 25px;
+}
+
+.links .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: width .5s ease 0s;
+	border-radius: 8px;
+}
+
+
+/* .links .start-home, a:nth-child(2):hover~.animation {
+	width: 100px;
+    border-radius: 25px;
+	left: 0;
+	background-color: #ccd0cf;
+    box-shadow: 15px;
+} */
