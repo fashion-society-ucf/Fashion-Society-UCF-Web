@@ -9,16 +9,12 @@ export default function NavBar() {
 
     return (
         <nav>
-            <div className="navbar">
-                <div className="links">
-                    <ul>
-                        <li className={location.pathname === "/" ? "current" : ""}><Link to="/">Home</Link></li>
-                        <li className={location.pathname === "/about" ? "current" : ""}><Link to="/about">About</Link></li>
-                        <li className={location.pathname === "/committees" ? "current" : ""}><Link to="/committees">Committees</Link></li>
-                        <li className={location.pathname === "/events" ? "current" : ""}><Link to="/events">Events</Link></li>
-                        <div className="animation start-home"></div>
-                    </ul>
-                </div>
+            <div className="links">
+                <Link className={location.pathname === "/" ? "current" : ""} to="/">Home</Link>
+                <Link className={location.pathname.startsWith("/about") ? "current" : ""} to="/about">About</Link>
+                <Link className={location.pathname.startsWith("/committees") ? "current" : ""} to="/committees">Committees</Link>
+                <Link className={location.pathname.startsWith("/events") ? "current" : ""} to="/events">Events</Link>
+                <div className="animation start-home"></div>
             </div>
         </nav>
     )
