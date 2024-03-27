@@ -14,53 +14,108 @@
     justify-content: center;
     align-items: strech;
 
-    overflow-x: auto;
-
     gap: 42px;
     height: 100%;
     padding: 20px;
 
-    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50px, rgba(0, 0, 0, 1) calc(100% - 50px), rgba(0, 0, 0, 0));
-}
+/*     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 50px, rgba(0, 0, 0, 1) calc(100% - 50px), rgba(0, 0, 0, 0));
+ */}
 
 .item {
     position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-
-    padding: 10px;
     width: 75px;
+    padding: 10px;
     height: 350px;
     border-radius: 30px;
     
     text-decoration: none;
     box-shadow: -4px -4px 10px rgba(0, 0, 0, 0.1);
 
-    transition: 0.1s ease-in-out;
+    transition: width 0.4s ease-in-out, filter 0.2s ease-in-out;
+
+    flex-shrink: 0;
 }
 
 .item:hover {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.2);
+    cursor: pointer;
 }
 
-.item p {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
+.item.selected {
+    width: 300px;
+    flex-direction: row;
+}
+
+.item > .text {
+    position: absolute;
+    width: 300px;
+
+    transform: rotate(-90deg) translateY(0); /* Start at the original position */
+    transition: all 0.5s ease-in-out;
+    user-select: none;
+    z-index: 2;
+}
+
+.item.selected > .text {
+    transform: rotate(0deg) translateY(-100%);
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.item > .text > .name {
+    position: relative;
+    width: 100%;
+    text-align: center;
     font-family: 'Geist', sans-serif;
     font-size: 1.7rem;
+    text-wrap: nowrap;
     font-weight: bold;
-    text-decoration: none;
-    color: black;
-    z-index: 1;
+
+    transition: all 0.3s ease-in-out;
 }
 
-.item img {
-    position: absolute;
+.item.selected > .text > .name {
+}
+
+.item > .text > .name > .description {
+    background-color: rgba(217, 217, 217, 0.65);
+    margin: 0;
+    text-align: left;
     width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: normal;
+    white-space: pre-wrap;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.item.selected > .text > .name > .description {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.item > img {
+    position: absolute;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.3s ease-in-out;
+    user-select: none;
+    opacity: 0.5;
+}
+
+.item.selected > img {
+    transform: scale(1.2);
 }
