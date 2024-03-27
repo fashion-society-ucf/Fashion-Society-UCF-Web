@@ -1,13 +1,13 @@
 nav {
 	width: 100%;
-	box-sizing: border-box;
 	position: fixed;
-    bottom: 0;
+	bottom: 0;
+	left: 0;
+	height: 100px;
 }
 
 .navbar {
 	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,7 +22,7 @@ nav {
 	border-radius: 15px;
 	font-size: 0;
     text-decoration: none;
-	font-family: 'Racing Sans One', sans-serif;
+	font-family: 'Geist', sans-serif;
 }
 
 .links li {
@@ -55,14 +55,5 @@ nav {
 	transition: width .5s ease 0s;
 	border-radius: 8px;
 }
-
-
-/* .links .start-home, a:nth-child(2):hover~.animation {
-	width: 100px;
-    border-radius: 25px;
-	left: 0;
-	background-color: #ccd0cf;
-    box-shadow: 15px;
-} */
 
 @media 
