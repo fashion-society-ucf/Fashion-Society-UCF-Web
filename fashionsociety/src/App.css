@@ -1,42 +1,50 @@
 @font-face {
-  font-family: 'Racing Sans One';
+  font-family: 'Geist';
   font-style: normal;
-  font-weight: 400;
-  src: local('Racing Sans One'), url(./fonts/rsone-regular.ttf) format('truetype');
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  src: local('Geist'), url(./fonts/GeistVF.ttf) format('truetype');
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  margin: 0 !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Racing Sans One', sans-serif;
-}
 
-.App {
+  font-family: 'Geist', sans-serif;
+
   background-repeat: no-repeat;
-  background-color: black;
   //background-image: url('../public/homebg.png');
   background-position: center;
   background-size: contain;
+}
+
+main {
+  position: relative;
+  box-sizing: border-box;
   width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 20px;
+
+  max-width: 70em;
 }
 
-.App-logo {
+main-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  main-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+main-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -47,7 +55,7 @@ body {
   color: white;
 }
 
-.App-link {
+main-link {
   color: #61dafb;
 }
 
@@ -62,4 +70,10 @@ body {
 
 .home {
   color: #ECDCC2;
+}
+
+@media (max-width: 600px) {
+  main {
+    
+  }
 }

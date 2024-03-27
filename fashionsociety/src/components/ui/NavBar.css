@@ -1,51 +1,59 @@
 nav {
 	width: 100%;
-	box-sizing: border-box;
 	position: fixed;
-    bottom: 0;
-}
+	bottom: 20px;
+	left: 0;
 
-.navbar {
-	font-size: 20px;
-	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 20px;
 }
 
 .links {
+	font-size: 20px;
 	display: flex;
-	width: fit-content;
-	height: fit-content;
-	background-color: rgba(170, 51, 47, 0.75);
-	border-radius: 15px;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+
+	padding: 20px 20px;
+	display: flex;
+	background-color: #AB2317;
+	border-radius: 50px;
 	font-size: 0;
     text-decoration: none;
-	font-family: 'Racing Sans One', sans-serif;
+	font-family: 'Geist', sans-serif;
+	font-weight: 300;
 }
 
-.links li {
-	line-height: 50px;
+.links a {
 	height: 100%;
-	font-size: 18px;
 	display: inline-block;
 	position: relative;
+	padding: 0 20px;
+
 	z-index: 1;
 	text-decoration: none;
 	text-align: center;
     justify-content: center;
-    margin-right: 40px;
-}
-
-.links a {
+    
 	color: #ECDCC2;
 	text-decoration: none;
+	line-height: 50px;
+	font-size: 18px;
+
+	transition: all 0.5s;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 00);
 }
 
-.links .current a {
+.links a:hover {
+	color: white;
+}
+
+.current {
 	color: white;
 	border-radius: 25px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2) !important;
 }
 
 .links .animation {
@@ -56,13 +64,20 @@ nav {
 	border-radius: 8px;
 }
 
+@media (max-width: 530px) {
+	nav {
+		bottom: 0;
+	}
 
-/* .links .start-home, a:nth-child(2):hover~.animation {
-	width: 100px;
-    border-radius: 25px;
-	left: 0;
-	background-color: #ccd0cf;
-    box-shadow: 15px;
-} */
+	.links {
+		width: 100%;
+		font-size: 16px;
+		border-radius: 0;
+		gap: 5px;
+	}
 
-@media 
+	.links a {
+		padding: 0 10px;
+		line-height: 40px;
+	}
+}
