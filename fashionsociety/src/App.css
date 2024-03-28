@@ -77,3 +77,28 @@ main-link {
     
   }
 }
+
+/* Social Media Style */
+.social-media-header {
+  background-image: url('./components/pages/SocialMedia/cover_full.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 166px; /* size from the mockup */
+  width: 100%;
+  display: flex; /* aligns title as needed */
+  align-items: center; 
+  justify-content: space-between; /* aligns title to left */
+}
+
+.social-media-container {
+  text-align: right;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.social-media-title {
+  font-size: 2em;
+  color: #F9F6F6;
+  margin-right: 40px;
+}

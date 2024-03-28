@@ -1,4 +1,5 @@
 import React, { memo, useState } from "react";
+import { useNavigate } from 'react-router-dom'; 
 
 import "./committees.css";
 
@@ -20,13 +21,19 @@ const CommitteeCard = memo(({ name, image, selected, select }) => {
 
 export default function Committees() {
     const [selected, setSelected] = useState("");
+    const navigate = useNavigate(); // initialize nav function
 
     const select = (name) => {
         if (selected === name) {
             setSelected("");
+            if(name === 'Social Media') {
+                navigate('/social-media');
+            }
             return;
         }
-        setSelected(name);
+        else {
+            setSelected(name);
+        }
     };
 
     return (
