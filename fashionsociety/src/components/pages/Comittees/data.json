@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Design",
+        "image": "/committees/design.png",
+        "url": "/design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Styling",
+        "image": "/committees/styling.png",
+        "url": "/styling",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Modeling",
+        "image": "/committees/modeling.png",
+        "url": "/modeling",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Beauty",
+        "image": "/committees/beauty.png",
+        "url": "/beauty",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Photography",
+        "image": "/committees/photography.png",
+        "url": "/photography",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Social Media",
+        "image": "/committees/socialmedia.png",
+        "url": "/social-media",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Production",
+        "image": "/committees/production.png",
+        "url": "/production",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Web Design",
+        "image": "/committees/webdesign.png",
+        "url": "/web-design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "name": "Zine",
+        "image": "/committees/zine.png",
+        "url": "/zine",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]
