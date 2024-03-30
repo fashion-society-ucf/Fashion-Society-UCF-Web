@@ -9,7 +9,7 @@ const CommitteeCard = memo(({ name, image, selected, select }) => {
                 <p className="name">
                     {name}
                     <p className="description">
-                        Design is a committee made for UCF’s best fashion designers and aspirational beginners alike. Whether it’s through sewing, knitting, crocheting, or upcycling, this committee is perfect for creative individuals who want to develop their talents and help design outfits for our spring runway show! Open to all skill levels, we are here to help students explore and learn fashion design, as well as hone in on their craft to fabricate runway-ready looks.
+                        Design is a committee made for UCF's best fashion designers and aspirational beginners alike. Whether it’s through sewing, knitting, crocheting, or upcycling, this committee is perfect for creative individuals who want to develop their talents and help design outfits for our spring runway show! Open to all skill levels, we are here to help students explore and learn fashion design, as well as hone in on their craft to fabricate runway-ready looks.
                     </p>
                 </p>
             </div>

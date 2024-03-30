@@ -1,0 +1,26 @@
+.card {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    min-width: 250px; /* adjust as needed */
+  }
+
+  .card h2 {
+    font-size: 15px; /* adjust as needed */
+    word-wrap: break-word;
+  }
+  
+  
+  .card-list {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  
+  .scroll-container {
+    overflow-x: auto;
+    margin-top: 15px;
+  }
