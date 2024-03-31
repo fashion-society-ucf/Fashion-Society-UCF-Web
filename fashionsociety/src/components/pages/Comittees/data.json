@@ -3,54 +3,54 @@
         "name": "Design",
         "image": "/committees/design.png",
         "url": "/design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "Design is a committee made for UCF’s best fashion designers and aspirational beginners alike. Whether it’s through sewing, knitting, crocheting, or upcycling, this committee is perfect for creative individuals who want to develop their talents and help design outfits for our spring runway show! Open to all skill levels, we are here to help students explore and learn fashion design, as well as hone in on their craft to fabricate runway-ready looks."
     },
     {
         "name": "Styling",
         "image": "/committees/styling.png",
         "url": "/styling",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "In the Styling committee, we pair our stylists with models to create a look for the club’s annual fashion show in the spring. The styling committee also engages in the exploration of fashion through the exchange of creative visions and education."
     },
     {
         "name": "Modeling",
         "image": "/committees/modeling.png",
         "url": "/modeling",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "The modeling committee is responsible for walking in our spring fashion show. You will be coached on creating your perfect walk, building your confidence on the runway, and building a solid foundation for posing and walking. Several workshops will be held to learn more about modeling, and there will also be modeling opportunities in the form of photo shoots."
     },
     {
         "name": "Beauty",
         "image": "/committees/beauty.png",
         "url": "/beauty",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "The beauty committee is an inclusive group that celebrates self-expression and empowers members through all things beauty. We explore makeup artistry, history, nail techniques, and hairstyling trends while fostering a supportive community where enthusiasts of all levels can share, learn, and grow together."
     },
     {
         "name": "Photography",
         "image": "/committees/photography.png",
         "url": "/photography",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "As the Photography committee, we aim to teach, assist, and execute principal photography to represent Fashion Society’s brand image and artistic efforts. Through the financial support of photography and editorial workshops, we will strive to expand our presence in the local fashion sphere with photoshoot applications in the Zine and capturing the club’s annual fashion show in the spring."
     },
     {
         "name": "Social Media",
         "image": "/committees/socialmedia.png",
         "url": "/social-media",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "The Social Media committee is all media curated by Fashion Society that is put out online on the social media platforms, Instagram and TikTok. The goal is to establish a more prominent online presence while showcasing the amazing work Fashion Society does!"
     },
     {
         "name": "Production",
         "image": "/committees/production.png",
         "url": "/production",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": " The Production committee is all about making sure events run smoothly and taking care of behind the scenes affairs. The main responsibilities of the committee include model escorting, ticketing, music and lights. As production chairman, I will also be in charge of keeping our Eventbrite up to date and touring venues for the club’s annual spring fashion show in order to assure all production needs are met."
     },
     {
         "name": "Web Design",
         "image": "/committees/webdesign.png",
         "url": "/web-design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "The Web Design committee is a group of designers, developers, and artists that aim to showcase their talents and skills through the Fashion Society’s website. As a committee, we strive to create and maintain a fun, functional, and immersive online presence for Fashion Society UCF. Web Design committee members will learn valuable skills in research, design, and programming."
     },
     {
         "name": "Zine",
         "image": "/committees/zine.png",
         "url": "/zine",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "With the Zine committee, we aim to create a well-established magazine highlighting a variety of club events. This year’s theme is the four elements with an emphasis on the 12 signs of the zodiac. Our Zine will consist of a variety of photo shoots, fundraisers, and poetry submitted by general body members."
     }
 ]
