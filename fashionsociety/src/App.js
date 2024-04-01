@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About.js';
 import Events from './components/pages/Events.js';
-import Committees from './components/pages/Comittees/Committees.js';
+import Committees from './components/pages/Committees/Committees.js';
 
 function App() {
   return (
