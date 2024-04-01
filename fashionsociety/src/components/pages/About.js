@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css"
 
 export default function About () {
+  document.body.style.backgroundColor = "#312E2E";
+
     return(
         <div className="about-page">
             <div className="about-section">
