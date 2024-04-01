@@ -5,14 +5,19 @@ export default function About() {
   document.body.style.backgroundColor = "#312E2E";
 
   return (
-    <div className="about-page">
-      <div className="about-section">
+    <div className="content">
+      <div className="about">
         <img className="about-header" src="./images/day edit/day-collage-2-800.jpg" alt="header for about page"></img>
         <h2>What is Fashion Society?</h2>
-        <p>We are an all inclusive club that is determined to create a safe space for any and all student creatives interested in the fashion industry. Our focus is on creating a judgement free zone and in making a positive
-          difference within the industry, giving students of all majors the opportunity to dive into a successful career in fashion. We specialize in 9 main committees being Beauty, Design, Modeling, Photography, Production, Social Media, Styling, Web Design, and Zine.</p>
+        <p>
+          We are an all inclusive club that is determined to create a safe space for any and all student creatives interested in the fashion industry. Our focus is on creating a judgement free zone and in making a positive
+          difference within the industry, giving students of all majors the opportunity to dive into a successful career in fashion. We specialize in 9 main committees being <strong>Beauty, Design, Modeling, Photography, Production, Social Media, Styling, Web Design, and Zine</strong>.
+        </p>
+      </div>
+
+      <div className="officers">
         <h3>Executive Board</h3>
-        <div className="image-grid">
+        <div className="officer-list">
           <div className="image-card">
             <img src="./eboard photos/erin-headshot.jpg" alt="Erin" />
             <p>Erin Kaplan, President</p>
