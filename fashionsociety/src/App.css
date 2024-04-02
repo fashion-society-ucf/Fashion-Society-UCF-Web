@@ -78,27 +78,194 @@ main-link {
   }
 }
 
-/* Social Media Style */
+/* SOCIAL MEDIA STYLE */
+/* Social Media Header */
 .social-media-header {
-  background-image: url('./components/pages/SocialMedia/cover_full.png');
+  background-image: url('../public/social-media-photos/cover_full.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 166px; /* size from the mockup */
   width: 100%;
-  display: flex; /* aligns title as needed */
+  display: flex; 
   align-items: center; 
-  justify-content: space-between; /* aligns title to left */
+  justify-content: space-between; 
 }
 
 .social-media-container {
   text-align: right;
   padding: 20px;
   flex-grow: 1;
+  align-items: flex-end;
 }
 
 .social-media-title {
+  text-align: right;
   font-size: 2em;
   color: #F9F6F6;
   margin-right: 40px;
 }
+
+/* Social Media Boxes */
+.social-media-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.social-media-description-box,
+.social-media-links-box {
+  border-radius: 15px; 
+  padding: 20px; 
+}
+
+.social-media-description-box {
+  background-color: #ECDCC2;
+  width: 40%;
+}
+
+.social-media-links-box {
+  background-color: #312E2E;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.social-media-link {
+  display: block;
+}
+
+.social-media-link img {
+  width: 70px; 
+  height: auto; 
+  margin: 0 20px; 
+}
+
+.social-media-icon-group {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 20px;
+  margin: 0 20px; 
+}
+
+.social-media-handle {
+  color: #ffffff; 
+  margin-top: 5px; 
+}
+
+.instagram-handle,
+.tiktok-handle {
+  color: #ffffff;
+}
+
+/* Social Media Chairmen */ 
+.smc-title {
+  font-weight: 200;
+  font-size: 40;
+  text-align: center;
+  margin-bottom: 4px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.sm-content {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.smc-title-container {
+  flex-basis: 100%;
+}
+
+.title-line {
+  width: 420px; 
+  height: 4px;
+  background-color: #000;
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+}
+
+
+.sm-chairmen {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.chairman-container {
+  margin: 0 10px; 
+}
+
+.chairman-image {
+  width: 130px; 
+  height: 180px;
+  object-fit: cover;  
+
+}
+
+.chairman-name {
+  color: #AB2317; 
+  text-align: center; 
+}
+
+/* Gallery */
+.gallery-box {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); 
+  grid-template-rows: repeat(2, 250px); 
+  grid-gap: 100px; 
+  justify-content: center; 
+  align-content: center; 
+  width: 898px; 
+  height: 695px; 
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: #312E2E; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.gallery-item {
+  width: 150px; /* width & height fr mockup */
+  height: 250px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%; 
+  height: auto; 
+  max-height: 100%;
+}
+
+/* Interest Form */
+.form-box {
+  max-width: 898px; 
+  width: 100%; 
+  margin: 0 auto; 
+  padding: 40px;
+  background-color: #EDEBEB;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 100px;
+}
+
+.interest-form-link {
+  color: #1652ED; 
+  text-decoration: none; 
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.interest-form-link:hover {
+  text-decoration: underline; 
+}
+

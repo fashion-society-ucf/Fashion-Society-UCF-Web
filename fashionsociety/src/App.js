@@ -6,7 +6,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About.js';
 import Events from './components/pages/Events.js';
 import Committees from './components/pages/Comittees/Committees.js';
-import SocialMedia from './components/pages/SocialMedia/SocialMedia.js';
+import SocialMedia from './components/pages/SocialMedia.js';
 
 function App() {
   return (
