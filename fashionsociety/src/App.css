@@ -77,3 +77,75 @@ main-link {
     
   }
 }
+
+
+/* BEAUTY STYLESHEET */
+
+/* Header 
+.beauty-header {
+  background-image: url('/beauty-contents/cover.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 300px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+.beauty-header {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 166px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.beauty-title {
+  color: white; 
+  font-size: 64; 
+}
+
+/* Description Box */
+.des-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.description {
+  color: white;
+}
+
+.des-box {
+  border-radius: 15px; 
+  padding: 20px; 
+  background-color: #312E2E;
+  display: flex;
+  width: 50%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/* Gallery */
+.gallery-box {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); 
+  grid-template-rows: repeat(2, 250px); 
+  grid-gap: 100px; 
+  justify-content: center; 
+  align-content: center; 
+  width: 1137px; 
+  height: 275px; 
+  margin: 0 auto;
+  padding: 20px; 
+  background-color: #312E2E; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
