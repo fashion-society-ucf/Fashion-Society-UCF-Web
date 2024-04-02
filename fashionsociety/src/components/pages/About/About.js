@@ -7,8 +7,7 @@ export default function About() {
   return (
     <div className="content">
       <div className="about">
-        <img className="about-header" src="./images/day edit/day-collage-2-800.jpg" alt="header for about page"></img>
-        <h2>What is Fashion Society?</h2>
+        <p className="title">What is Fashion Society?</p>
         <p>
           We are an all inclusive club that is determined to create a safe space for any and all student creatives interested in the fashion industry. Our focus is on creating a judgement free zone and in making a positive
           difference within the industry, giving students of all majors the opportunity to dive into a successful career in fashion. We specialize in 9 main committees being <strong>Beauty, Design, Modeling, Photography, Production, Social Media, Styling, Web Design, and Zine</strong>.
@@ -16,23 +15,39 @@ export default function About() {
       </div>
 
       <div className="officers">
-        <h3>Executive Board</h3>
+        <p className="board-title">Our Executive Officers</p>
         <div className="officer-list">
           <div className="image-card">
             <img src="./eboard photos/erin-headshot.jpg" alt="Erin" />
-            <p>Erin Kaplan, President</p>
+            <div className="text">
+              <strong>Erin Kaplan</strong>
+              <p>President</p>
+            </div>
           </div>
+
           <div className="image-card">
             <img src="./eboard photos/juju-headshot.JPG" alt="Juju" />
-            <p>Juju Gordon, Vice President</p>
+            <div className="text">
+              <strong>Juju Gordon</strong>
+              <p>Vice President</p>
+            </div>
           </div>
+
           <div className="image-card">
             <img src="./eboard photos/alex-headshot.JPG" alt="Alex" />
-            <p>Alexandra Cabrera, Tresurer</p>
+            <div className="text">
+
+              <strong>Alexandra Cabrera</strong>
+              <p>Treasurer</p>
+            </div>
           </div>
+
           <div className="image-card">
             <img src="./eboard photos/anthony-headshot.JPG" alt="Anthony" />
-            <p>Anthony Urena, Secretary and Creative Director</p>
+            <div className="text">
+              <strong>Anthony Urena</strong>
+              <p>Secretary and Creative Director</p>
+            </div>
           </div>
         </div>
       </div>
