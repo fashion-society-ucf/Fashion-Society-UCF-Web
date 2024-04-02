@@ -3,6 +3,7 @@ nav {
 	position: fixed;
 	bottom: 20px;
 	left: 0;
+	z-index: 1000;
 
 	display: flex;
 	justify-content: center;
