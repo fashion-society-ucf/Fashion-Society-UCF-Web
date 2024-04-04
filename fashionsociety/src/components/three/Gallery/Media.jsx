@@ -2,9 +2,9 @@
 import { React, useEffect,  useRef, useMemo } from 'react'
 import { useThree, useFrame  } from '@react-three/fiber'
 import gsap from 'gsap'
-import fragment from '../../shaders/fragment.glsl'
-import vertex from '../../shaders/vertex.glsl'
-import { offset, findX, findY } from '../../utils/math.js'
+import fragment from '../shaders/fragment.glsl'
+import vertex from '../shaders/vertex.glsl'
+import { offset, findX, findY } from '../utils/math.js'
 
 export default function Media({
   element,
