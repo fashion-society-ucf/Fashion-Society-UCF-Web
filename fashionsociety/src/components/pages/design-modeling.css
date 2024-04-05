@@ -1,28 +1,25 @@
 .banner {
     width: 100%;
-    height: 175px;
+    height: 150px;
     background-size: cover; 
     background-position: center; 
     align-items: center;
+    justify-content: center;
     display: flex;
   }
 
 .banner h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
-.banner h1.design {
-    padding-left: 550px;
-    padding-top: 25px; 
+.banner h1.design { 
     color: #ab3430;
-    text-shadow: 2px 2px 4px #ab34307c;
+    text-shadow: 2px 2px 4px #69211f;
   }
 
 .banner h1.modeling {
-    padding-left: 106px;
-    padding-top: 60px; 
     color: white;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.658); 
+    text-shadow: 2px 2px 4px rgb(119, 119, 119); 
   }
 
 /* .chairmen {
