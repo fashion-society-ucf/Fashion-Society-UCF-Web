@@ -1,0 +1,44 @@
+.banner {
+    width: 100%;
+    height: 175px;
+    background-size: cover; 
+    background-position: center; 
+    align-items: center;
+    display: flex;
+  }
+
+.banner h1 {
+    font-size: 50px;
+  }
+
+.banner h1.design {
+    padding-left: 550px;
+    padding-top: 25px; 
+    color: #ab3430;
+    text-shadow: 2px 2px 4px #ab34307c;
+  }
+
+.banner h1.modeling {
+    padding-left: 106px;
+    padding-top: 60px; 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.658); 
+  }
+
+/* .chairmen {
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+    align-items: left;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+.chairmen h1 {
+    font-family: 'Geist', sans-serif; 
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: 30px;
+    grid-column: 1; 
+  } */
