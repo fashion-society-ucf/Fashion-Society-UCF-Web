@@ -36,7 +36,7 @@ export default function Home() {
             ))}
           </div>
           <div className="pointer-events-none	 relative z-10 flex flex-col items-center justify-center">
-            <img src="./focus_image.jpg" className="invisible pointer-events-none h-[60rem] w-auto grid-focused js-grid-focused"/>
+            <img src="./k/focus_image.jpg" className="invisible pointer-events-none h-[60rem] w-auto grid-focused js-grid-focused"/>
             <div className="relative min-w-[24rem] h-[5rem] js-grid-content">
               {data.map((media, index)=>{
                 return <p  key={index} className="absolute top-0 left-0 w-full text-18 opacity-0 text-center js-grid-text">{media.description}</p>
