@@ -43,9 +43,9 @@ export default function Home() {
               })}
             </div>
           </div>
-          <div>
+          {/* <div>
             <FPSStats />
-          </div>
+          </div> */}
           <div className="absolute h-full w-full">
             <Canvas
               className='gl z-5'
