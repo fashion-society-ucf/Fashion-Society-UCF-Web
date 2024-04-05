@@ -172,7 +172,7 @@ const {scene, camera, raycaster, pointer} = useThree()
     })
   }
 
-  useTouchEvents(canvasRef, onWheel, onTouchDown, onTouchMove, onTouchUp)
+  useTouchEvents( onWheel, onTouchDown, onTouchMove, onTouchUp)
   if (medias == null) return null;
   
   return <>
