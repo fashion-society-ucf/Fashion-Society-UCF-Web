@@ -401,6 +401,16 @@ module.exports = function (webpackEnv) {
                 and: [/\.(ts|tsx|js|jsx|md|mdx)$/],
               },
             },
+            // GLSL loader.
+            {
+              test: /\.(glsl|frag|vert)$/, // Add any file extensions for GLSL files
+              use: [
+                {
+                  loader: 'webpack-glsl-loader',
+                  options: {} // You can pass options here if needed
+                }
+              ]
+            },
             // Process application JS with Babel.
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
