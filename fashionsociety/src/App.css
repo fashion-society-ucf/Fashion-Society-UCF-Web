@@ -16,7 +16,7 @@ body {
   font-family: 'Geist', sans-serif;
 
   background-repeat: no-repeat;
-  //background-image: url('../public/homebg.png');
+  /* background-image: url('../public/homebg.png'); */
   background-position: center;
   background-size: contain;
 }

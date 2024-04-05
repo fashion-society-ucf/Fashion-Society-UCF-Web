@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { urls } from '../../data/gallery.js'
-import HomeScene from '../../three/home/Home.jsx'
+import Gallery from '../three/Gallery/Gallery.jsx'
 import { Canvas } from '@react-three/fiber'
 import * as THREE from 'three'
 import FPSStats from "react-fps-stats";
@@ -9,9 +9,9 @@ export default function Home() {
   const data = urls;
   const [textures, setTextures] = useState([]);
 
-  const textureLoader = new THREE.TextureLoader();
 
   useEffect(() => {
+    const textureLoader = new THREE.TextureLoader(); // Create instance of texture loader
     const array = [...document.querySelectorAll('.js-tile')];
     const loadedTextures = array.map((element) =>
       textureLoader.load(element.getAttribute('data-src'))
@@ -55,7 +55,7 @@ export default function Home() {
                 }
               }
             >
-              <HomeScene
+              <Gallery
                 textures={textures}
               />
             </Canvas>
