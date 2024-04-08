@@ -1,0 +1,29 @@
+
+
+.opening-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+.description{
+    background-color: antiquewhite;
+    margin-top: 80px;
+    width: 400px; 
+    padding: 20px; 
+    border-radius: 30px; /* Border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow */
+}
+
+.chairman-photo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chairman-photo img {
+  width: 40%; /* Adjust image width as needed */
+  border-radius: 70%; /* Makes the image circular */
+}
