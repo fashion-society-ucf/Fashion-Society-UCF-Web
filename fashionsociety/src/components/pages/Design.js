@@ -18,7 +18,7 @@ export default function Design () {
         <span>Design Chairmen</span>
       </div>
 
-      <div className="chairmanImage">
+      {/* <div className="chairmanImage">
         <div>
           <img src={kylieUrl} alt="Kylie Knickerbocker" />
           <div className="subtitle">Kylie Knickerbocker</div>
@@ -31,6 +31,17 @@ export default function Design () {
           <img src={christianUrl} alt="Christian Perry" />
           <div className="subtitle">Christian Perry</div>
         </div>
+      </div> */}
+
+      <div className="chairmanImage">
+        <img src={kylieUrl} alt="Kylie Knickerbocker" />
+        <img src={samaraUrl} alt="Samara Dyal" />
+        <img src={christianUrl} alt="Christian Perry" />
+      </div>
+      <div className="chairmanSubtitle">
+        <div className="subtitle">Kylie Knickerbocker</div>
+        <div className="subtitle">Samara Dyal</div>
+        <div className="subtitle">Christian Perry</div>
       </div>
 
     </div>

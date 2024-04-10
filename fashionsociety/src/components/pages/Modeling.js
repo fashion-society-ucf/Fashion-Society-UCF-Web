@@ -18,7 +18,7 @@ export default function Modeling () {
         <span>Modeling Chairmen</span>
       </div>
 
-      <div className="chairmanImage">
+      {/* <div className="chairmanImage">
         <div>
           <img src={eleonoraUrl} alt="Eleonora Yordanova" />
           <div className="subtitle">Eleonora Yordanova</div>
@@ -31,6 +31,17 @@ export default function Modeling () {
           <img src={avalonUrl} alt="Avalon Ramsey" />
           <div className="subtitle">Avalon Ramsey</div>
         </div>
+      </div> */}
+
+      <div className="chairmanImage">
+        <img src={eleonoraUrl} alt="Eleonora Yordanova" />
+        <img src={robinUrl} alt="Robin Thomas" />
+        <img src={avalonUrl} alt="Avalon Ramsey" />
+      </div>
+      <div className="chairmanSubtitle">
+        <div className="subtitle">Eleonora Yordanova</div>
+        <div className="subtitle">Robin Thomas</div>
+        <div className="subtitle">Avalon Ramsey</div>
       </div>
       
     </div>
