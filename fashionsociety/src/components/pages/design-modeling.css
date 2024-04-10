@@ -22,20 +22,48 @@
     text-shadow: 2px 2px 4px rgb(119, 119, 119); 
   }
 
-/* .chairmen {
-    width: 50%;
-    height: 100%;
-    gap: 20px;
-    align-items: left;
-    display: grid;
-    grid-template-columns: auto auto;
+.underlinedText {
+    margin-top: 20px;
+    font-size: 25px;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    display: flex;
   }
 
-.chairmen h1 {
-    font-family: 'Geist', sans-serif; 
-    font-weight: 300;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    font-size: 30px;
-    grid-column: 1; 
-  } */
+.underlinedText span {
+    display:block;
+  }
+
+.underlinedText span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 300px;
+    height: 3px;
+    background-color: black;
+  }
+
+.chairmanImage {
+    margin-top: 30px; 
+    margin-left: -50px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+  }
+
+.chairmanImage img {
+    clip-path: inset(0px 50px 0px 50px);
+    width: auto; 
+    max-height: 200px; 
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
+}
+
+.subtitle {
+    width: max-content;
+    margin-top: 5px; 
+    margin-left: 70px; 
+    color: #ab3430;
+    font-style: italic; 
+  }
