@@ -49,6 +49,10 @@ html {
   font-size: calc(100vw / var(--size) * 10);
 }
 
+.content {
+  height: 100%;
+}
+
 .gl{
   position: absolute;
   bottom: 0;

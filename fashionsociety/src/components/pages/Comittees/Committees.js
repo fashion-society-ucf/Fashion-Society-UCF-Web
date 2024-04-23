@@ -26,6 +26,8 @@ const CommitteeCard = memo(({data: { name, image, description, url }, selected, 
 export default function Committees() {
     const [selected, setSelected] = useState("");
 
+    document.body.style.backgroundColor = "#EDEBEB";
+
     const select = (name) => {
         if (selected === name) {
             setSelected("");
