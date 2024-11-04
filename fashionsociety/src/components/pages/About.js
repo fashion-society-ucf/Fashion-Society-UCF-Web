@@ -12,7 +12,7 @@ difference within the industry, giving students of all majors the opportunity to
 <h3>Executive Board</h3>
       <div className="image-grid">
         <div className="image-card">
-          <img src="./eboard photos/erin-headshot.jpg" alt="Erin" />
+          <img src="./eboard photos/erin-headshot.jpg" alt="............" />
           <p>Erin Kaplan, President</p>
         </div>
         <div className="image-card">
